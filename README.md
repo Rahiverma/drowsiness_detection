@@ -1,22 +1,16 @@
-# Drowsiness and Yawn detection with voice alert using Dlib
+# Drowsiness and Yawn detection with voice alert using Dlib without Visual Studio Download
 
-Simple code in python to detect Drowsiness and Yawn and alert the user using Dlib.
+Code for Drowsiness detection without downloading the Visual Studio and this code is only for python 3.6
 
 ## Dependencies
 
 1. Python 3
 2. opencv (tested with 3.4) 
-3. dlib	(tested with 19.18.0)
+3. dlib-19.8.1-cp36-cp36m-win_amd64.whl
 4. imutils (tested with 0.5.3)
 5. scipy
 6. numpy
 7. argparse
-
-## Run 
-
-```
-Python3 drowsiness_yawn.py -- webcam 0		//For external webcam, use the webcam number accordingly
-```
 
 ## Setups
 
@@ -29,7 +23,7 @@ YAWN_THRESH = 10`	//change this according to the distance from the camera
 
 ## Authors
 
-**Arijit Das** 
+**Rahi Verma** 
 
 
 ## Acknowledgments
